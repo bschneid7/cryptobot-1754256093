@@ -74,6 +74,10 @@ def home():
 @app.route('/health')
 def health():
     return {"status": "healthy", "bot": "active", "deployment": "github-success"}
+    
+    if __name__ == '__main__':
+    import os
+    # Azure provides PORT environment variable
+    port = int(os.environ.get('PORT', 80))  # Changed from 8000 to 80
+    app.run(host='0.0.0.0', port=port, debug=False)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8000)))
