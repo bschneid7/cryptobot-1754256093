@@ -1,0 +1,28 @@
+{
+  "status": "offline",
+  "uptime": "0h 0m",
+  "scheduled_tasks": 0,
+  "error_count": 0,
+  "portfolio_history": {
+    "timestamps": ["2025-08-05T00:00:00Z"],
+    "values": [0]
+  },
+  "asset_allocation": {
+    "Managed": 0,
+    "Available": 0
+  },
+  "trades_last_24h": 0,
+  "win_rate": 0,
+  "last_trade_time": null,
+  "enhanced_features": {
+    "whale_detection": "unknown",
+    "macd_analysis": "unknown",
+    "position_sizing": "unknown",
+    "pre_market_scanning": "unknown"
+  },
+  "api_status": {
+    "binance_connection": "offline",
+    "auth_status": "unknown",
+    "rate_limit_status": "unknown"
+  }
+}
